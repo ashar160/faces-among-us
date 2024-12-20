@@ -1,0 +1,262 @@
+@font-face {
+    font-family: Jost;
+    src: url(assets/fonts/Jost-Light.ttf);
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: Jost;
+    src: url(assets/fonts/Jost-Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Jost;
+    src: url(assets/fonts/Jost-SemiBold.ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: AdindaMelia;
+    src: url(assets/fonts/Adinda\ Melia.otf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: GoboldUplow;
+    src: url(assets/fonts/Gobold\ Regular.otf);
+    font-weight: 400;
+}
+
+header .row {
+    align-items: center !important;
+}
+
+header .menu-div  ul.menu-main {
+    display: flex !important;
+    justify-content: space-between !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    list-style-type: none !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+header .row  .btn-div {
+    display: flex !important;
+    justify-content: flex-end !important;
+}
+
+header {
+    background: #ffffff00 !important;
+    height: 120px !important;
+    display: flex !important;
+    align-items: center !important;
+    position: absolute;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    z-index: 9 !important;
+}
+
+.UpperTxt {
+    font-family: AdindaMelia;
+    font-size: 100px;
+    line-height: 100px;
+    color: #e02b20;
+    text-align: center;
+    position: relative;
+    bottom: -50px;
+    z-index: 9;
+}
+
+.HeadMain {
+    font-family: GoboldUplow;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff !important;
+}
+
+p.ParaMain {
+    text-align: center;
+    font-family: Jost;
+    font-weight: 400;
+    color: #ffff !important;
+    font-size: 22px;
+}
+
+div#HomeBanner p.ParaMain {
+    padding: 15px 0;
+    font-weight: 100 !important;
+}
+
+a#btnmain {
+    font-family: 'Jost';
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #fff;
+    background: #e02b20;
+    padding: 20px 40px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    width: fit-content;
+    transition: .3s ease;
+}
+
+div#HomeBanner {
+    background-image: url(assets/images/Banner.jpg);
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    height: 1150px !important;
+    background-position: bottom;
+    padding-top: 150px !important;
+    position: relative !important;
+}
+
+div#HomeBanner .HeadMain {
+    font-size: 120px !important;
+    line-height: 120px !important;
+}
+
+header .menu-div ul.menu-main li a {
+    font-family: 'Jost';
+    color: #fff !important;
+    font-weight: 500;
+    text-transform: uppercase !important;
+    font-size: 17px;
+    line-height: 17px;
+    transition: .3s ease;
+}
+
+header .row .col-md-3, header .row .col-md-6 {
+    padding: 0 0 !important;
+}
+
+h2.logo.HeadMain {
+    text-align: left !important;
+}
+
+header .menu-div ul.menu-main li a:hover {
+    color: #e02b20 !important;
+}
+
+a#btnmain:hover {
+    box-shadow: 0px 0px 15px #e02b203b;
+    background: #fff;
+    color: #e02b20 !important;
+}
+
+img.BeforeImage {
+    position: absolute !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    margin: 0 auto !important;
+}
+
+.txt-row {
+    z-index: 9 !important;
+}
+
+img::selection {
+    background: #ffffff00 !important;
+}
+
+::selection {
+    background: #e02b20 !important;
+    color: #000 !important;
+}
+
+div#ServiceSec {
+    background: #070d16 !important;
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
+}
+
+div#ServiceSec .icon-box {
+    background: white !important;
+    text-align: center !important;
+    border-radius: 20px !important;
+    padding: 10px 0 30px 0 !important;
+}
+
+div#ServiceSec .icon-box .HeadMain {
+    color: #000815 !important;
+}
+
+div#ServiceSec .icon-box .ParaMain {
+    color: #000815 !important;
+    width: 90%;
+    margin: 20px auto;
+}
+
+div#ServiceSec .icon-box a#btnmain:hover {
+    background: #070d16 !important;
+}
+
+footer {
+    background: #e02b20 !important;
+    padding: 12px 0 !important;
+}
+
+footer p.ParaMain {
+    margin: 0 !important;
+}
+
+.row {
+    width: 100% !important;
+}
+
+header  a {
+    color: #fff !important;
+    transition: .3s ease;
+}
+
+header a:hover {
+    color: #e02b20 !important;
+}
+
+div#GameSec {
+    background-image: url(assets/images/Banner.jpg);
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+div#GameSec .PhoneDiv {
+    display: flex;
+    justify-content: center;
+    position: relative !important;
+}
+
+div#GameSec .BtnDiv .FirstRow {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 20px 0;
+}
+
+div#GameSec .BtnDiv .FirstRow a#btnmain {
+    margin: 0 !important;
+}
+
+div#GameSec img.FacesImg {
+    position: absolute !important;
+    width: 330px !important;
+    height: 710px !important;
+    top: 20px !important;
+    object-fit: cover !important;
+    z-index: 1;
+    border-radius: 30px !important;
+}
+
+div#GameSec img.PhomeFrame {
+    z-index: 9;
+}
